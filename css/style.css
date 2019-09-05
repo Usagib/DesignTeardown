@@ -20,27 +20,71 @@ body{
   display: float;
 
 }
+
 [class*='main-container'] {
-  height: 500px;
   width: 50%;
 }
 .main-container-1{
   float: left;
-  background-color: #666;
+  background-color: white;
+  height: 700px;
 }
 .main-container-2{
   float: right;
   background-color: #eee;
+  height: 700px;
 }
 .main-container-3{
   float: left;
   clear: both;
   background-color: #eee;
+  height: 500px;
 }
 .main-container-4{
   float: right;
   clear: right;
   background-color: #666;
+  height: 500px;
+}
+
+.main-header-wrapper{
+  position: relative;
+  margin: 30% 40% 5% 8%;
+  display: flex;
+}
+
+.main-title{
+  position: relative;
+  margin: 2% 8% 0 8%;
+  background-color: #444;
+  height: 100px;
+}
+
+.main-subtitle-wrapper{
+  position: relative;
+  height: 20px;
+  background-color: #ddd;
+  margin: 7% 30% 0 8%;
+  display: flex;
+}
+
+[class*='main-subtitle'] {
+  flex: auto;
+  background-color: gray;
+  border: 2px solid white;
+}
+
+.main-author-1{
+  flex: 20%;
+  height: 70px;
+  background-color: #777;
+}
+
+.main-author-2{
+  flex: 80%;
+  height: 30px;
+  background-color: #888;
+  margin-top: 5%;
 }
 
 .post-wrapper {
@@ -170,7 +214,7 @@ footer{
 .advice{
   position: relative;
   top: 3em;
-  right: -20em;
+  right: -21.5em;
   height: 100px;
   background-color: teal;
   font-size: 1.5em;
