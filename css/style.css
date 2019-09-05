@@ -18,12 +18,12 @@ body{
 
 #main-wrapper{
   display: float;
+
 }
 [class*='main-container'] {
   height: 500px;
   width: 50%;
 }
-
 .main-container-1{
   float: left;
   background-color: #666;
@@ -165,4 +165,14 @@ footer{
   display: flex;
   height: 600px;
   background-color: #550000;
+}
+
+.advice{
+  position: relative;
+  top: 3em;
+  right: -20em;
+  height: 100px;
+  background-color: teal;
+  font-size: 1.5em;
+
 }
