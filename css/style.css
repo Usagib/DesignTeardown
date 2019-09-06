@@ -181,11 +181,67 @@ body{
   background-color: peru;
 }
 
+.see-all-item{
+  position: relative;
+  top: 35%;
+  width: 40%;
+  height: 50px;
+  margin: 0 30% 0 30%;
+  background-color: #666;
+}
+
 #comming-up{
-  display: flex;
   width: 100%;
   height: 1000px;
   background-color: teal;
+}
+
+.comming-up-date{
+  position: relative;
+  top: 5%;
+  width: 30%;
+  height: 30px;
+  margin: 0 35% 0 35%;
+  background-color: #666;
+}
+
+.comming-up-title{
+  position: relative;
+  top: 10%;
+  width: 50%;
+  height: 70px;
+  margin: 0 25% 0 25%;
+  background-color: #888;
+}
+
+.comming-up-subtitle{
+  position: relative;
+  top: 15%;
+  width: 45%;
+  height: 150px;
+  margin: 0 27.5% 0 27.5%;
+  background-color: #888;
+}
+
+.comming-up-button{
+  position: relative;
+  top: 20%;
+  width: 30%;
+  height: 60px;
+  margin: 0 35% 0 35%;
+  background-color: #888;
+  border-radius: 11px;
+}
+
+.comming-up-img{
+  position: relative;
+  top: 25%;
+  width: 25.95%;
+  height: 35%;
+  margin: 0 37.025% 0 37.025%;
+  background-color: #888;
+  border-radius: 100%;
+
 }
 
 #person-week-wrapper{
@@ -310,8 +366,16 @@ footer{
   width: 50%;
   height: 100px;
   margin: 0 25% 0 25%;
-  background-color: #666; 
+  background-color: #666;
+}
 
+.ad-title-1{
+  position: relative;
+  top: 40%;
+  width: 70%;
+  height: 70px;
+  margin: 0 15% 0 15%;
+  background-color: #666;
 }
 
 .ad-sub{
