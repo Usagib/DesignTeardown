@@ -16,6 +16,33 @@ body{
   border: 1px solid white;
 }
 
+.logo-container{
+  width: 200px;
+  margin: 50px 20px 0 40px;
+  height: 70px;
+  background-color: #444;
+}
+
+h1{
+  margin-top: 30%;
+  text-align: center;
+}
+
+h3{
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
+}
+
+.nav-topic{
+  width: 150px;
+  height: 50px;
+  border-radius: 11px;
+  margin: 60px 3px;
+
+}
+
+
 #main-wrapper{
   display: float;
 
@@ -360,13 +387,13 @@ footer{
 }
 
 .footer-sitemap{
-  
+
   position: relative;
   width: 60%;
   height: 200px;
   margin: 2% 20% 0 20%;
   background-color: #bbb;
-  
+
 }
 
 .footer-credits{
@@ -476,7 +503,7 @@ footer{
   height: 125px;
   margin: 0 15% 0 15%;
   background-color: #666;
-  
+
 }
 
 .ad-button{
@@ -496,7 +523,7 @@ footer{
   height: 75px;
   margin: 0 20% 0 20%;
   border-radius: 11px;
-  background-color: #ccc; 
+  background-color: #ccc;
 }
 
 .person-week-img{
