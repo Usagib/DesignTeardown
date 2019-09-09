@@ -323,10 +323,10 @@ body{
   background-color: #888;
 }
 
-.feat-book-subtitle{
+.feat-book-content{
   position: relative;
   top: 12%;
-  width: 45%;
+  width: 55%;
   height: 100px;
   margin: 0 25% 0 5%;
   background-color: #888;
@@ -344,9 +344,54 @@ body{
 
 footer{
   width: 100%;
-  display: flex;
-  height: 600px;
-  background-color: #550000;
+  margin: 0;
+  height: 800px;
+  overflow: hidden;
+  background-color: #888;
+}
+
+.footer-title{
+
+  position: relative;
+  width: 20%;
+  height: 40px;
+  margin: 5% 40% 0 40%;
+  background-color: teal;
+}
+
+.footer-sitemap{
+  
+  position: relative;
+  width: 60%;
+  height: 200px;
+  margin: 2% 20% 0 20%;
+  background-color: #bbb;
+  
+}
+
+.footer-credits{
+  position: relative;
+  width: 30%;
+  height: 120px;
+  margin: 5% 35% 0 35%;
+  background-color: #bbb;
+}
+
+.footer-line-1{
+  position: relative;
+  height: 40px;
+  width: 30%;
+  margin: 6% 35% 0 35%;
+  background-color: teal;
+}
+
+
+.footer-line-2{
+  position: relative;
+  width:  25%;
+  height: 40px;
+  margin: 1.5% 37.5% 0 37.5%;
+  background-color: teal;
 }
 
 .advice{
@@ -406,6 +451,15 @@ footer{
   background-color: #666;
 }
 
+.ad-title-2{
+  position: relative;
+  top: 10%;
+  width: 50%;
+  height: 60px;
+  margin: 0 25% 0 25%;
+  background-color: #666;
+}
+
 .ad-sub{
   position: relative;
   top: 47%;
@@ -413,6 +467,16 @@ footer{
   height: 125px;
   margin: 0 15% 0 15%;
   background-color: #666;
+}
+
+.ad-sub-2{
+  position: relative;
+  top: 15%;
+  width: 70%;
+  height: 125px;
+  margin: 0 15% 0 15%;
+  background-color: #666;
+  
 }
 
 .ad-button{
@@ -423,6 +487,16 @@ footer{
   border-radius: 11px;
   margin: 0 35% 0 35%;
   background-color: peru;
+}
+
+.ad-form{
+  position: relative;
+  top: 50%;
+  width: 60%;
+  height: 75px;
+  margin: 0 20% 0 20%;
+  border-radius: 11px;
+  background-color: #ccc; 
 }
 
 .person-week-img{
