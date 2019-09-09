@@ -181,6 +181,7 @@ body{
   background-color: peru;
 }
 
+
 .see-all-item{
   position: relative;
   top: 35%;
@@ -193,7 +194,7 @@ body{
 #comming-up{
   width: 100%;
   height: 1000px;
-  background-color: teal;
+  background-color: #ddd;
 }
 
 .comming-up-date{
@@ -233,16 +234,6 @@ body{
   border-radius: 11px;
 }
 
-.comming-up-img{
-  position: relative;
-  top: 25%;
-  width: 25.95%;
-  height: 35%;
-  margin: 0 37.025% 0 37.025%;
-  background-color: #888;
-  border-radius: 100%;
-
-}
 
 #person-week-wrapper{
   display: flex;
@@ -269,6 +260,7 @@ body{
 [class*='article-item'] {
   height: 500px;
   width: 50%;
+  display: float;
 }
 
 .article-item-1{
@@ -309,9 +301,45 @@ body{
 
 #feat-book{
   width: 100%;
-  display: flex;
   height: 300px;
   background-color: teal;
+}
+
+.feat-book-date{
+  position: relative;
+  top: 6%;
+  width: 15%;
+  height: 20px;
+  margin: 0 25% 0 5%;
+  background-color: #666;
+}
+
+.feat-book-title{
+  position: relative;
+  top: 9%;
+  width: 20%;
+  height: 50px;
+  margin: 0 25% 0 5%;
+  background-color: #888;
+}
+
+.feat-book-subtitle{
+  position: relative;
+  top: 12%;
+  width: 45%;
+  height: 100px;
+  margin: 0 25% 0 5%;
+  background-color: #888;
+}
+
+.feat-book-button{
+  position: relative;
+  top: 15%;
+  width: 20%;
+  height: 60px;
+  margin: 0 25% 0 5%;
+  background-color: #888;
+  border-radius: 11px;
 }
 
 footer{
@@ -399,7 +427,7 @@ footer{
 
 .person-week-img{
   position: relative;
-  top: 10%;
+  top: 30%;
   width: 70%;
   height: 70%;
   margin: 0 15% 0 15%;
@@ -408,9 +436,43 @@ footer{
 
 .person-week-bio{
   position: relative;
-  top: 10%;
+  top: 18%;
   width: 80%;
-  height: 200px;
+  height: 150px;
   margin: 0 10% 0 10%;
   background-color: #666;
+}
+
+
+.article-r-img{
+  float: left;
+  width: 15%;
+  height: 100px;
+  background-color: #ddd;
+  margin-left: 10%;
+  margin-top:10%
+}
+
+.article-author{
+  width: 30%;
+  height: 30px;
+  background-color: #ccc;
+  margin-top: 10%;
+  margin-left: 32%;
+}
+
+.article-title{
+  width: 50%;
+  height: 50px;
+  background-color: #bbb;
+  margin-top: 3%;
+  margin-left: 32%;
+}
+
+.article-description{
+  width: 72%;
+  margin: 5% 10% 0 10%;
+  height: 150px;
+  clear: both;
+  background-color: #555;
 }
