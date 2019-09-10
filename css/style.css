@@ -121,8 +121,10 @@ h3{
   position: relative;
   margin: 2% 8% 0 8%;
   background-color: #444;
-  height: 100px;
-  font-size: 40px;
+  height: 120px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
+  font-size: 45px;
   color: white;
 }
 
@@ -138,6 +140,8 @@ h3{
   flex: auto;
   background-color: gray;
   border: 2px solid white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
 }
 
 .main-author-1{
@@ -152,8 +156,10 @@ h3{
   height: 30px;
   background-color: #888;
   margin-top: 5%;
-  font-size: 25px;
+  font-size: 20px;
   color: white;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 700;
 }
 
 .post-wrapper {
@@ -191,6 +197,8 @@ h3{
 }
 
 .post-title{
+  font-family: 'Nunito', sans-serif;
+  font-weight: 800;
   font-size: 40px;
   color: white;
   margin: 5% 5% 5% 5%;
@@ -200,6 +208,8 @@ h3{
 }
 
 .post-date{
+  font-family: 'Crimson Pro', serif;
+  font-weight: 200;
   font-size: 12px;
   color: white;
   margin: 7% 7% 0% 5%;
@@ -209,6 +219,8 @@ h3{
 }
 
 .post-author{
+  font-family: 'Nunito', serif;
+  font-weight: 700;
   font-size: 12px;
   color: white;
   margin: 7% 7% 0% 5%;
@@ -218,7 +230,11 @@ h3{
 }
 
 .post-text{
-  font-size: 12px;
+  font-family: 'Crimson Pro', serif;
+  font-weight: normal;
+  font-size: 14px;
+  word-spacing: 0.2em;
+  letter-spacing: 0.001em;
   color: white;
   margin: 7% 7% 0% 5%;
   width: 80%;
@@ -453,6 +469,8 @@ footer{
   height: 100px;
   background-color: teal;
   font-size: 1.5em;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
 }
 
 .color-change{
@@ -486,6 +504,10 @@ footer{
 }
 
 .ad-title{
+  text-align: center;
+  font-family: 'Nunito', serif;
+  font-weight: 700;
+  font-size: 40px;
   position: relative;
   top: 40%;
   width: 50%;
@@ -495,6 +517,10 @@ footer{
 }
 
 .ad-title-1{
+  text-align: center;
+  font-family: 'Nunito', serif;
+  font-weight: 700;
+  font-size: 30px;
   position: relative;
   top: 40%;
   width: 70%;
@@ -513,7 +539,11 @@ footer{
 }
 
 .ad-sub{
+  text-align: center;
+  font-family: 'Lora', serif;
+  font-weight: normal;
   position: relative;
+  font-size: 20px;
   top: 47%;
   width: 70%;
   height: 125px;
@@ -532,6 +562,10 @@ footer{
 }
 
 .ad-button{
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Nunito', serif;
+  font-weight: normal;
   position: relative;
   top: 55%;
   width: 30%;
