@@ -198,14 +198,17 @@ h3{
 }
 
 .post-date{
-  font-family: 'Crimson Pro', serif;
-  font-weight: 200;
-  font-size: 12px;
-  color: white;
   margin: 7% 7% 0% 5%;
   width: 25%;
   height: 5%;
   background-color: teal;
+}
+
+h2{
+  font-family: 'Crimson Pro', serif;
+  font-weight: 200;
+  font-size: 12px;
+  color: white;
 }
 
 .post-author{
@@ -517,9 +520,6 @@ footer{
 
 .ad-title{
   text-align: center;
-  font-family: 'Nunito', serif;
-  font-weight: 700;
-  font-size: 40px;
   position: relative;
   top: 40%;
   width: 50%;
@@ -528,18 +528,29 @@ footer{
 
 }
 
-.ad-title-1{
-  text-align: center;
+h5{
   font-family: 'Nunito', serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 40px;
+}
+
+
+.ad-title-1{
+  text-align: center;
   position: relative;
   top: 40%;
   width: 70%;
   height: 70px;
   margin: 0 15% 0 15%;
-
 }
+
+h4{
+font-family: 'Nunito', serif;
+font-weight: 700;
+font-size: 30px;
+}
+
+
 
 .ad-title-2{
   position: relative;
@@ -593,10 +604,12 @@ footer{
   position: relative;
   top: 50%;
   width: 60%;
-  height: 75px;
+  height: 55px;
   margin: 0 20% 0 20%;
   border-radius: 11px;
   background-color: #ccc;
+  text-align: center;
+  padding-top: 30px;
 }
 
 .person-week-img{
