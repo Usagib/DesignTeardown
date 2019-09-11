@@ -423,10 +423,32 @@ footer {
 
 .footer-sitemap {
   position: relative;
-  width: 60%;
-  height: 150px;
-  margin: 2% 20% 0 20%;
+  display: inline-block;
+  width: 80%;
+  height: 200px;
+  margin: 2% 10% 0 10%;
   background-color: #bbb;
+  text-align: center;
+}
+
+.footer-sitemap a {
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  padding: 0 5px;
+  font-family: 'Crimson Pro' , sans-serif;
+  font-weight: lighter;
+  line-height: 1.5em;
+}
+
+.footer-sitemap a::before {
+  content: '•';
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.footer-sitemap a:hover {
+  color: black;
 }
 
 .footer-credits {
