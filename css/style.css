@@ -65,22 +65,26 @@ h3 {
 [class*='main-container'] {
   width: 50%;
 }
+
 .main-container-1 {
   float: left;
   height: 700px;
   background-color: #eee;
 }
+
 .main-container-2 {
   float: right;
   height: 700px;
   background-color: #ddd;
 }
+
 .main-container-3 {
   float: left;
   clear: both;
   height: 500px;
   background-color: #ddd;
 }
+
 .main-container-4 {
   float: right;
   clear: right;
@@ -166,6 +170,7 @@ h3 {
   width: 100%;
   margin: 0;
 }
+
 .post-ad-1 {
   flex: 33%;
   height: 900px;
@@ -292,7 +297,6 @@ h2 {
   text-align: center;
 }
 
-
 #person-week-wrapper {
   display: flex;
   width: 100%;
@@ -387,7 +391,7 @@ h2 {
   height: 100px;
   margin: 0 25% 0 5%;
   font-family: 'Lora', serif;
-  word-spacing: 0.10em;
+  word-spacing: 0.1em;
   line-height: 2em !important;
 }
 
@@ -603,14 +607,13 @@ h4 {
   letter-spacing: 0.001em;
 }
 
-
 .article-r-img {
   float: left;
   width: 15%;
   height: 100px;
   background-color: #ddd;
   margin-left: 10%;
-  margin-top:10%;
+  margin-top: 10%;
 }
 
 .article-author {
@@ -642,27 +645,27 @@ h4 {
 }
 
 [class*='article-desc'] {
-  font-family: 'Crimson Pro', serif;
+  font-family: 'Crimson Pro',serif;
   font-weight: normal;
   font-size: 14px;
   word-spacing: 0.2em;
   letter-spacing: 0.001em;
 }
 
-[class*='article-t'],[class='ad-form'] {
-  font-family: 'Nunito', serif;
+[class*='article-t'], [class='ad-form'] {
+  font-family: 'Nunito', sans-serif;
   font-size: 30px !important;
   font-weight: 800;
   line-height: 30px;
 }
 
-[class*='comming-up-t'], [class*='feat-book-t'],[class*='ad-title-2'] {
+[class*='comming-up-t'], [class*='feat-book-t'], [class*='ad-title-2'] {
   font-family: 'Nunito', sans-serif;
   font-weight: 700;
   font-size: 2.5em;
 }
 
-[class='feat-book-date'],[class='footer-title'] {
+[class='feat-book-date'], [class='footer-title'] {
   font-family: 'Crimson Pro', serif;
   font-weight: bold;
   letter-spacing: 0.09em;
