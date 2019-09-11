@@ -20,6 +20,8 @@ h1{
   font-family: 'Nunito', sans-serif;
   font-size: 1.6em;
   font-weight: bold;
+  margin-top: 30%;
+  text-align: center;
 }
 
 h3{
@@ -27,6 +29,9 @@ h3{
   font-size: 1em;
   font-style: oblique;
   font-weight: 200;
+  padding-top: 0;
+  margin-top: 0;
+  text-align: center;
 }
 
 #nav-bar{
@@ -46,17 +51,6 @@ h3{
   width: 200px;
   margin: 50px 20px 0 40px;
   height: 70px;
-}
-
-h1{
-  margin-top: 30%;
-  text-align: center;
-}
-
-h3{
-  padding-top: 0;
-  margin-top: 0;
-  text-align: center;
 }
 
 .nav-topic{
